@@ -1,156 +1,4 @@
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  /* background-color: black;
-  color: white; 
-}
-.worklogo{
-  border-radius: 20px;
-}
-:root {
-  --primary-text-color: #183b56;
-  --secondary-text-color: #577592;
-  --accent-color: #2294ed;
-  --accent-color-dark: #1d69a3;
-}
 
-body {
-  font-family: "Poppins", sans-serif;
-  color: var(--primary-text-color);
-}
-
-p {
-  color: var(--secondary-text-color);
-  line-height: 1.4rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-}
-
-.flex {
-  display: flex;
-  align-items: center;
-}
-
-.container {
-  max-width: 1180px;
-  margin-inline: auto;
-  overflow: hidden;
-}
-
-nav {
-  background-color: #f3faff;
-  box-shadow: 0 0 4px #bbd0e2;
-  position: fixed;
-  top: 0;
-  z-index: 99;
-  left: 0;
-  right: 0;
-}
-
-.main-nav {
-  justify-content: space-between;
-  padding-block: 8px;
-}
-
-.company-logo img {
-  width: 120px;
-}
-
-.nav-links ul {
-  gap: 16px;
-}
-
-.hover-link {
-  cursor: pointer;
-}
-
-.hover-link:hover {
-  color: var(--secondary-text-color);
-}
-
-.hover-link:active {
-  color: red;
-}
-
-.nav-item.active {
-  color: var(--accent-color);
-}
-
-.search-bar {
-  height: 32px;
-  gap: 8px;
-}
-
-.news-input {
-  width: 200px;
-  height: 100%;
-  padding-inline: 12px;
-  border-radius: 4px;
-  border: 2px solid #bbd0e2;
-}
-
-.search-button {
-  background-color: var(--accent-color);
-  color: white;
-  padding: 8px 24px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.search-button:hover {
-  background-color: var(--accent-color-dark);
-}
-
-main {
-  padding-block: 20px;
-  margin-top: 80px;
-}
-
-.cards-container {
-  justify-content: space-between;
-  flex-wrap: wrap;
-  row-gap: 20px;
-  align-items: start;
-}
-
-.card {
-  width: 360px;
-  min-height: 400px;
-  box-shadow: 0 0 4px #d4ecff;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: #fff;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-.card:hover {
-  box-shadow: 1px 1px 8px #d4ecff;
-  background-color: #f9fdff;
-  transform: translate(-2px);
-}
-
-.card-header img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card-content {
-  padding: 12px;
-}
-
-.news-source {
-  margin-block: 12px;
-} */
  *{
   padding: 0;
   margin: 0;
@@ -185,34 +33,26 @@ main {
  .container{
   max-width: 1180px;
   margin-inline: auto;
-  /* beacuse of we want our container left and right wise evenly align(our container align in centre) */
+ 
   overflow: hidden;
-  /* 
-  visible: Content overflows visibly.
-hidden: Content is clipped (hidden).
-scroll: Scrollbars are always present.
-auto: Scrollbars appear only when needed. */
+  
  }
  nav{
   background-color: #f3faff;
   box-shadow:0 0 4px #bbd0e2 ;
   position: fixed;
-  /* this makes the navbar element fixed to the viewport.the navbar remains fixed when we scrolls.elemnt will not move along page content. */
+ 
   top: 0;
-  /* this ensures navbar is positioned at the very top of broswer window.doesnot matter where user scrolls */
+ 
   z-index: 99;
-  /* it controls stacking order of elemnts.higher z index value means elemnt will be top than other ones */
+ 
   left: 0;
   right: 0;
-  /*
-  These properties ensure that the nav stretches across the full width of the viewport. left: 0 positions the left edge of the nav at the left edge of the viewport, and right: 0 does the same on the right side.*/
+
  }
  .main-nav{
 justify-content: space-between;
-/*justify-content: space-between;:
 
-This is used to align child elements inside a flex container. It works only when the parent element is a flex container (i.e., when display: flex; or similar is applied to the parent).
-The space-between value ensures that the child elements are spaced out with as much space between them as possible. The first item is aligned to the start (left), and the last item is aligned to the end (right), with any remaining space distributed evenly between the items.*/
 padding: 8px;
  }
  .company-logo img {
@@ -249,11 +89,11 @@ padding: 8px;
   background-color:var(--accent-color) ;
   color: white;
   padding:8px 24px ;
-  /* 8px in top bottom 24px in left right */
+ 
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  /* property changes the appearance of the cursor to a pointer (usually a hand) when hovering over an element.  */
+
 }
 .search-button:hover{
   background-color: var(--accent-color-dark);
